@@ -4,11 +4,11 @@ pdf.fonttype : 42
 
 # figure.dpi : 200
 
-font.size : 8
-axes.titlesize : 8
-axes.labelsize : 8
-xtick.labelsize : 8
-ytick.labelsize : 8
-legend.fontsize : 8
-figure.titlesize : 8
-figure.labelsize : 8
+font.size : 9
+axes.titlesize : 9
+axes.labelsize : 9
+xtick.labelsize : 9
+ytick.labelsize : 9
+legend.fontsize : 9
+figure.titlesize : 9
+figure.labelsize : 9

@@ -844,6 +844,20 @@ wheels = [
 ]
 
 [[package]]
+name = "qiskit-algorithms"
+version = "0.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "qiskit" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e5/86/d0f8ccae25281d49ebb0e2b59076c2d815389c16a4f7a379936f21065e94/qiskit_algorithms-0.4.0.tar.gz", hash = "sha256:b945e807c9b94ba2e0d2e02898b1f1e1a33efd3b4a6dc5a45bb787c6832d4093", size = 259556, upload-time = "2025-08-29T18:32:24.076Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3c/23/ab868be0ea11e0054ac4962d27f80cc064e007f8e34b7b61808a25227cca/qiskit_algorithms-0.4.0-py3-none-any.whl", hash = "sha256:c8bfc119e270c7cd7d6013e62193914381bd71fd4cdc847c07b50c749fd0114d", size = 327840, upload-time = "2025-08-29T18:32:22.659Z" },
+]
+
+[[package]]
 name = "quantum-fir"
 version = "0.1.0"
 source = { virtual = "." }
@@ -854,6 +868,7 @@ dependencies = [
     { name = "pylatexenc" },
     { name = "qiskit" },
     { name = "qiskit-aer" },
+    { name = "qiskit-algorithms" },
     { name = "scipy" },
     { name = "sounddevice" },
 ]
@@ -866,6 +881,7 @@ requires-dist = [
     { name = "pylatexenc", specifier = ">=2.11" },
     { name = "qiskit", specifier = ">=2.5.1" },
     { name = "qiskit-aer", specifier = ">=0.17.2" },
+    { name = "qiskit-algorithms", specifier = ">=0.4.0" },
     { name = "scipy", specifier = ">=1.18.0" },
     { name = "sounddevice", specifier = ">=0.5.5" },
 ]
