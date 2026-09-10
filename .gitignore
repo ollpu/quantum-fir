@@ -1,2 +1,4 @@
 __pycache__
 .venv
+qiskit1_env
+quantum_fir.egg-info
