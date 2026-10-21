@@ -1,5 +1,7 @@
 # State-Space-Based FIR Filtering on a Quantum Computer
 
+Roope Salmi, Davide Rocchesso, Vesa Välimäki
+
 Code for the simulation portion of the paper submitted to ICASSP 2027. [arXiv:2609.20331](https://arxiv.org/abs/2609.20331)
 
 The code is available under the MIT license.
